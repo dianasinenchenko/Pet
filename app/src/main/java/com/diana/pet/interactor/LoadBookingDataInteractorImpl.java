@@ -23,6 +23,6 @@ public class LoadBookingDataInteractorImpl implements ILoadDataInteractor {
 
     @Override
     public Single<List> loadData() {
-        return null;
+        return bookingRepository;
     }
 }
